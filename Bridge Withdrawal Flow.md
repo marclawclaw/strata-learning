@@ -24,3 +24,6 @@ Assignment rules:
 - If the chosen operator isn't in that set, the request is reassigned randomly within it. See [[Fixed Denomination and FIFO UTXOs]].
 
 From the user's view: the BTC arrives after checkpoint plus maturity (hours), not after the 1.4-week challenge. The operator carries the challenge-period delay.
+
+> [!warning] Code differs from the docs
+> Current `strata-bridge`/`asm` code differs on several parameters and steps. These include operator assignment timing, denomination, timelocks, and which proof the garbled circuit checks. See [[Strata Bridge Proof Chain]].

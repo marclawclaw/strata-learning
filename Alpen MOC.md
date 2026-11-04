@@ -83,6 +83,10 @@ Map of content for learning **Alpen** (EVM rollup), **Strata** (orchestration la
 
 ## Integrations
 - [[Strata and LEZ Integration]]: BTC into the Logos Execution Zone as a Strata SNARK account
+- [[SP1 in Strata]]: how SP1 Groth16 proofs flow through the stack, and the constraints for LEZ
+- [[Strata SNARK Account Lifecycle]]: account creation, updates, balances, deposits, upgrades (from code)
+- [[Strata Bridge Proof Chain]]: ASM → Moho → bridge proof → counterproof → garbled circuit (from code)
+- [[SP1 and RISC Zero Bridging Options]]: cost and trust of each way LEZ could meet Strata's SP1 requirement
 - [[LEZ Burn Verifiability]]: what evidence of a LEZ burn exists today and what the roadmap plans
 
 ## Meta

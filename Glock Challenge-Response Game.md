@@ -20,3 +20,6 @@ If the operator wins, it can still pay out, but it has **~1.5 weeks after defend
 The garbled-circuit mechanics behind "counterproof" and "NACK" come from [[Glock]]. Evaluating the circuit on a bad proof leaks a secret, and that secret signs the fraud-proof tx ([[Adaptor Signatures]]). Full details are "future documentation".
 
 Related: [[Bridge Timing Parameters]], [[Payout Administrator]], [[Operator Stake and Slashing]]
+
+> [!warning] Code differs from the docs
+> Current `strata-bridge`/`asm` code differs on several parameters and steps. These include operator assignment timing, denomination, timelocks, and which proof the garbled circuit checks. See [[Strata Bridge Proof Chain]].
