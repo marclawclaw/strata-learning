@@ -89,3 +89,6 @@ The realistic path is **A or A+ for v1, then B**. A comes with an explicit cap o
 Deep dive on the burn-evidence problem: [[LEZ Burn Verifiability]]
 
 Related: [[Execution and Orchestration Separation]] (Alpen explicitly anticipates other VMs as further SNARK accounts), [[Centralization Points]], [[Alpen Open Questions]]
+
+> [!note] Update 2026-11
+> LEZ cross-zone messages will be 2/3-committee-signed on a per-zone outbound channel ([[LEZ Signed Outbound Channel]]). That gives burns k-of-n evidence that a Strata SP1 program can verify (option A+ above, built into the platform).

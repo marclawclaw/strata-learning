@@ -88,6 +88,8 @@ Map of content for learning **Alpen** (EVM rollup), **Strata** (orchestration la
 - [[Strata Bridge Proof Chain]]: ASM → Moho → bridge proof → counterproof → garbled circuit (from code)
 - [[SP1 and RISC Zero Bridging Options]]: cost and trust of each way LEZ could meet Strata's SP1 requirement
 - [[LEZ Burn Verifiability]]: what evidence of a LEZ burn exists today and what the roadmap plans
+- [[LEZ Cross-Zone Messaging]]: how LEZ zones deliver messages and mints to each other, and what the target checks (from code)
+- [[LEZ Signed Outbound Channel]]: chosen cross-zone design (2/3-signed outbound channel) and its fit with the BTC bridge
 
 ## Meta
 - [[Alpen Project Status]]
